@@ -179,6 +179,7 @@
     <LocalDebuggerEnvironment>PATH=$(MLSDK)\VirtualDevice\bin;$(MLSDK)\VirtualDevice\lib;$(MLSDK)\lib\win64</LocalDebuggerEnvironment>
     <!-- set this for launching Lumin RT examples -->
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\.out\simple_gl_app</LocalDebuggerWorkingDirectory>
+    <MLDeviceSerialNumber />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <MLSDK>C:\Users\jhege\MagicLeap\mlsdk\v0.18.0</MLSDK>
@@ -211,18 +212,25 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
+    <ClCompile Include="LoadShader.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="fragment-shader-old.glsl" />
+    <None Include="fragment-shader.glsl" />
     <None Include="manifest.xml" />
     <None Include="SimpleGlApp.mabu" />
+    <None Include="vertex-shader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="simple_gl_app.package" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadShader.h" />
+  </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MLProjectMabuSyncTime="131872122563595116 (11/20/2018 6:30:56 PM UTC)" />
+      <UserProperties MLProjectMabuSyncTime="131874739431425123 (11/23/2018 7:12:23 PM UTC)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

@@ -2,7 +2,7 @@
 
 HOST=win64
 SPEC=debug_win_msvc-2017_x64
-SimpleGlApp_BASE=c:/Projects/samples/SimpleGlApp
+SimpleGlApp_BASE=C:/Projects/samples/SimpleGlApp
 SimpleGlApp_OUTPUT=$(SimpleGlApp_BASE)/.out/$(SPEC)
 
 
@@ -40,35 +40,35 @@ postbuild ::
 
 clean :: SimpleGlApp-clean
 
-$(MLSDK)/tools/mabu/data/configs/debug.config : 
-
 $(MLSDK)/tools/mabu/data/options/optimize/off.option : 
-
-c:/Projects/samples/SimpleGlApp/glfw.comp : 
-
-$(MLSDK)/tools/mabu/data/options/debug/on.option : 
-
-$(MLSDK)/tools/mabu/data/components/stdc++.comp : 
-
-$(MLSDK)/tools/mabu/data/components/OpenGL.comp : 
-
-$(MLSDK)/tools/mabu/data/options/package/debuggable/on.option : 
-
-$(MLSDK)/.metadata/components/ml_sdk_common.comp : 
-
-$(MLSDK)/tools/mabu/data/options/warn/on.option : 
-
-$(MLSDK)/tools/mabu/data/options/magicleap.option : 
 
 $(MLSDK)/.metadata/components/ml_sdk.comp : 
 
-$(MLSDK)/tools/mabu/data/options/standard-c++/11.option : 
+$(MLSDK)/tools/mabu/data/components/stdc++.comp : 
+
+C:/Projects/samples/SimpleGlApp/glfw.comp : 
 
 $(MLSDK)/tools/mabu/data/options/exceptions/on.option : 
 
-c:/Projects/samples/SimpleGlApp/glad.comp : 
+$(MLSDK)/tools/mabu/data/options/package/debuggable/on.option : 
+
+$(MLSDK)/tools/mabu/data/options/warn/on.option : 
+
+$(MLSDK)/tools/mabu/data/options/standard-c++/11.option : 
+
+$(MLSDK)/tools/mabu/data/options/magicleap.option : 
+
+$(MLSDK)/tools/mabu/data/options/debug/on.option : 
 
 $(MLSDK)/tools/mabu/data/options/runtime/shared.option : 
+
+$(MLSDK)/.metadata/components/ml_sdk_common.comp : 
+
+$(MLSDK)/tools/mabu/data/components/OpenGL.comp : 
+
+$(MLSDK)/tools/mabu/data/configs/debug.config : 
+
+C:/Projects/samples/SimpleGlApp/glad.comp : 
 
 PROGRAM_PREFIX=
 PROGRAM_EXT=.exe
@@ -81,13 +81,13 @@ STATIC_EXT=.lib
 COMPILER_PREFIX=
 LINKER_PREFIX=
 
--make-directories : c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64 c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp
+-make-directories : C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64 C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp
 
-c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64 : 
-	$(ECHO) @mkdir -p c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64
+C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64 : 
+	$(ECHO) @mkdir -p C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64
 
-c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp : 
-	$(ECHO) @mkdir -p c:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp
+C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp : 
+	$(ECHO) @mkdir -p C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp
 
 include $(SimpleGlApp_OUTPUT)/SimpleGlApp.mk
 build :  | SimpleGlApp-all

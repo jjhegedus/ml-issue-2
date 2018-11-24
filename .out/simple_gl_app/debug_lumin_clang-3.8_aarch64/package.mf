@@ -2,7 +2,7 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "cc76915a61b4afca59f7d471b8fefa24d3e7ce50",
+   "hash": "d913736a68c3e644caa6c2f134a816b05a763e4a",
    "pkgpath": "bin/SimpleGlApp",
    "size": 14424,
    "src": "C:/Projects/samples/SimpleGlApp/.out/debug_lumin_clang-3.8_aarch64/SimpleGlApp",
@@ -16,7 +16,7 @@
      "version": 3
     }
    },
-   "xfrm_hash": "994b629cb53b5005b5cee81af74f28bf50cf716b",
+   "xfrm_hash": "47eebf2c3c6d629578dab1ec7a4f3a00c0da8353",
    "xfrm_path": "C:/Projects/samples/SimpleGlApp/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\SimpleGlApp-dfd7c0044c112f00",
    "xfrm_size": 15182
   },

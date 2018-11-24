@@ -18,10 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LoadShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="manifest.xml" />
     <None Include="SimpleGlApp.mabu" />
     <None Include="simple_gl_app.package" />
+    <None Include="vertex-shader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment-shader-old.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment-shader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

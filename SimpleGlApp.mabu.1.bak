@@ -4,14 +4,15 @@ OPTIONS = \
 	standard-c++/11 \
 	warn/on
 
-SRCS = \
-	LoadShader.cpp \
-	main.cpp
-
+SRCS = main.cpp
 USES = \
 	OpenGL \
 	ml_sdk \
 	stdc++
+
+DEFS.lumin = \
+	ML_DEVICE \
+	USE_GLFW=0
 
 DEFS.win = \
 	ML_WINDOWS \
@@ -20,8 +21,4 @@ DEFS.win = \
 USES.win = \
 	glad \
 	glfw
-
-DEFS.lumin = \
-	ML_DEVICE \
-	USE_GLFW=0
 

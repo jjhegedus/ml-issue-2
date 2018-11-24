@@ -1,40 +1,69 @@
-C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/main.cpp.o: \
- C:/Projects/samples/SimpleGlApp/main.cpp \
+C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/LoadShader.cpp.o: \
+ C:/Projects/samples/SimpleGlApp/LoadShader.cpp \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat \
- C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/chrono \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/climits \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cmath \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/concurrencysal.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/crtdefs.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstddef \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdint \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdio \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdlib \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstring \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cwchar \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/eh.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/exception \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/excpt.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/fstream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/initializer_list \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/intrin0.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ios \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iosfwd \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/istream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits.h \
- C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ratio \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/memory \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/new \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ostream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h \
- C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdint.h \
- C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/thr/xthrcommon.h \
- C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/thr/xtimec.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/streambuf \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/string \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/system_error \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/type_traits \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/typeinfo \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/use_ansi.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/utility \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vadefs.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_exception.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_new.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_new_debug.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_string.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_typeinfo.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vector \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xatomic0.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xcall_once.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xerrc.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xfacet \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xiosbase \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xkeycheck.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocale \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocinfo \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocinfo.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocnum \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xmemory \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xmemory0 \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstddef \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstring \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstring_insert.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xtgmath.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xtr1common \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xutility \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ymath.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/yvals.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/yvals_core.h \
@@ -69,6 +98,7 @@ C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/mai
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_search.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_share.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_stdio_config.h \
+ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_terminate.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wconio.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wctype.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wdirect.h \
@@ -82,14 +112,16 @@ C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/mai
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/ctype.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/errno.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/float.h \
+ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/locale.h \
+ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/malloc.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/math.h \
+ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/share.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stddef.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stdio.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stdlib.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/string.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/sys/stat.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/sys/types.h \
- C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/time.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/wchar.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/GL/gl.h \
  C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/consoleapi.h \
@@ -148,61 +180,78 @@ C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/mai
  C:/Projects/third-party/glad/include/KHR/khrplatform.h \
  C:/Projects/third-party/glad/include/glad/glad.h \
  C:/Projects/third-party/glfw/include/GLFW/glfw3.h \
- C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_graphics.h \
- C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_head_tracking.h \
- C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_lifecycle.h \
- C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_logging.h \
- C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_perception.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/poppack.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack1.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack2.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h \
- C:/projects/samples/simpleglapp/LoadShader.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_api.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_coordinate_frame_uid.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_fileinfo.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_pose.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_snapshot.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_types.h \
- C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_version.h
-C:/Projects/samples/SimpleGlApp/main.cpp:
+ C:/projects/samples/simpleglapp/LoadShader.h
+C:/Projects/samples/SimpleGlApp/LoadShader.cpp:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat:
-C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/chrono:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/climits:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cmath:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/concurrencysal.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/crtdefs.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstddef:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdint:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdio:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstdlib:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cstring:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cwchar:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/eh.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/exception:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/excpt.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/fstream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/initializer_list:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/intrin0.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ios:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iosfwd:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/istream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits.h:
-C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ratio:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/memory:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/new:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ostream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h:
-C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdint.h:
-C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/thr/xthrcommon.h:
-C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/thr/xtimec.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/streambuf:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/string:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/system_error:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/type_traits:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/typeinfo:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/use_ansi.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/utility:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vadefs.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_exception.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_new.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_new_debug.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_string.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vcruntime_typeinfo.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vector:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xatomic0.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xcall_once.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xerrc.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xfacet:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xiosbase:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xkeycheck.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocale:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocinfo:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocinfo.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xlocnum:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xmemory:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xmemory0:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstddef:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstring:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xstring_insert.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xtgmath.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xtr1common:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/xutility:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ymath.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/yvals.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/yvals_core.h:
@@ -237,6 +286,7 @@ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_memo
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_search.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_share.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_stdio_config.h:
+C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_terminate.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wconio.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wctype.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/corecrt_wdirect.h:
@@ -250,14 +300,16 @@ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/crtdbg.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/ctype.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/errno.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/float.h:
+C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/locale.h:
+C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/malloc.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/math.h:
+C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/share.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stddef.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stdio.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/stdlib.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/string.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/sys/stat.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/sys/types.h:
-C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/time.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/ucrt/wchar.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/GL/gl.h:
 C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/consoleapi.h:
@@ -316,11 +368,6 @@ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/wow64apiset.h:
 C:/Projects/third-party/glad/include/KHR/khrplatform.h:
 C:/Projects/third-party/glad/include/glad/glad.h:
 C:/Projects/third-party/glfw/include/GLFW/glfw3.h:
-C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_graphics.h:
-C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_head_tracking.h:
-C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_lifecycle.h:
-C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_logging.h:
-C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/include/ml_perception.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/poppack.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack1.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack2.h:
@@ -328,11 +375,4 @@ C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h:
 C:/projects/samples/simpleglapp/LoadShader.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_api.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_coordinate_frame_uid.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_fileinfo.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_pose.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_snapshot.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_types.h:
-C:/users/jhege/magicleap/mlsdk/v0.18.0/include/ml_version.h:
 

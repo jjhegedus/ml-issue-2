@@ -40,31 +40,31 @@ postbuild ::
 
 clean :: SimpleGlApp-clean
 
-$(MLSDK)/.metadata/components/ml_sdk_common.comp : 
-
-$(MLSDK)/tools/mabu/data/options/optimize/off.option : 
-
 $(MLSDK)/tools/mabu/data/configs/debug.config : 
 
 $(MLSDK)/tools/mabu/data/options/exceptions/on.option : 
 
-$(MLSDK)/tools/mabu/data/components/OpenGL.comp : 
+$(MLSDK)/tools/mabu/data/options/standard-c++/11.option : 
 
 $(MLSDK)/tools/mabu/data/options/debug/on.option : 
 
-$(MLSDK)/.metadata/components/ml_sdk.comp : 
-
-$(MLSDK)/tools/mabu/data/options/warn/on.option : 
-
 $(MLSDK)/tools/mabu/data/components/stdc++.comp : 
-
-$(MLSDK)/tools/mabu/data/options/runtime/shared.option : 
-
-$(MLSDK)/tools/mabu/data/options/standard-c++/11.option : 
 
 $(MLSDK)/tools/mabu/data/options/magicleap.option : 
 
+$(MLSDK)/.metadata/components/ml_sdk.comp : 
+
+$(MLSDK)/tools/mabu/data/options/optimize/off.option : 
+
 $(MLSDK)/tools/mabu/data/options/package/debuggable/on.option : 
+
+$(MLSDK)/tools/mabu/data/options/warn/on.option : 
+
+$(MLSDK)/.metadata/components/ml_sdk_common.comp : 
+
+$(MLSDK)/tools/mabu/data/options/runtime/shared.option : 
+
+$(MLSDK)/tools/mabu/data/components/OpenGL.comp : 
 
 PROGRAM_PREFIX=
 PROGRAM_EXT=

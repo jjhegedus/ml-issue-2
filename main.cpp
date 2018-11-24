@@ -33,6 +33,12 @@
 #include <ml_lifecycle.h>
 #include <ml_logging.h>
 
+
+
+// ******************   Application Includes : Begin ************************//
+#include "LoadShader.h"
+// ******************   Application Includes : End ************************//
+
 // Constants
 const char application_name[] = "com.magicleap.simpleglapp";
 
@@ -210,6 +216,46 @@ int main() {
     return -1;
   }
 
+
+
+  // ******************   Application Setup : Begin ************************//
+  ML_LOG(Info, "%s: Application Setup Beginning.", application_name);
+
+
+  GLuint VertexArrayID;
+  glGenVertexArrays(1, &VertexArrayID);
+  glBindVertexArray(VertexArrayID);
+
+  // An array of three vertices to draw a triangle
+  static const GLfloat g_vertex_buffer_data[] = {
+     -1.0f, -1.0f, 0.0f,
+     1.0f, -1.0f, 0.0f,
+     0.0f,  1.0f, 0.0f,
+  };
+
+  // This will identify our vertex buffer
+  GLuint vertexbuffer;
+  // Generate 1 buffer, put the resulting identifier in vertexbuffer
+  glGenBuffers(1, &vertexbuffer);
+  // The following commands will talk about our 'vertexbuffer' buffer
+  glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+  // Give our vertices to OpenGL.
+  glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertex_buffer_data), g_vertex_buffer_data, GL_STATIC_DRAW);
+
+
+
+
+  // Create and compile our GLSL program from the shaders
+  GLuint programID = LoadShaders("C:/Projects/samples/SimpleGlApp/vertex-shader.glsl", "C:/Projects/samples/SimpleGlApp/fragment-shader.glsl");
+
+
+  ML_LOG(Info, "%s: Application Setup Complete.", application_name);
+
+  // ******************   Application Setup : End ************************//
+
+
+
+
   // Get ready to connect our GL context to the MLSDK graphics API
   graphics_context.makeCurrent();
   glGenFramebuffers(1, &graphics_context.framebuffer_id);
@@ -264,6 +310,7 @@ int main() {
     auto msRuntime = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - start).count();
     auto factor = labs(msRuntime % 2000 - 1000) / 1000.0;
 
+    // Drawing functions must be performed for each camera
     for (int camera = 0; camera < 2; ++camera) {
       glBindFramebuffer(GL_FRAMEBUFFER, graphics_context.framebuffer_id);
       glFramebufferTextureLayer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, virtual_camera_array.color_id, 0, camera);
@@ -273,11 +320,57 @@ int main() {
       glViewport((GLint)viewport.x, (GLint)viewport.y,
                  (GLsizei)viewport.w, (GLsizei)viewport.h);
       glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-      if (camera == 0) {
-        glClearColor(1.0 - factor, 0.0, 0.0, 0.0);
-      } else {
-        glClearColor(0.0, 0.0, factor, 0.0);
-      }
+
+      // Commenting out the original code that cleared each camera to a different color
+      //if (camera == 0) {
+      //  glClearColor(1.0 - factor, 0.0, 0.0, 0.0);
+      //} else {
+      //  glClearColor(0.0, 0.0, factor, 0.0);
+      //}
+
+
+      // Clear both eyes to black
+
+      glClearColor(0.0, 255.0, 0.0, 0.0);
+
+
+      // ******************   Application Code : Begin ************************//
+
+
+      // Use our shader
+      glUseProgram(programID);
+      // Draw triangle...
+
+      // 1st attribute buffer : vertices
+      glEnableVertexAttribArray(0);
+      glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+      glVertexAttribPointer(
+        0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
+        3,                  // size
+        GL_FLOAT,           // type
+        GL_FALSE,           // normalized?
+        0,                  // stride
+        (void*)0            // array buffer offset
+      );
+      // Draw the triangle !
+      glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
+      glDisableVertexAttribArray(0);
+
+
+
+
+      // Render the monkey mesh
+      //GLuint monkey_vao;
+
+      //const int MAX_BONES = 3;
+      ////mat4 monkey_bone_offset_matrices[MAX_BONES];
+
+
+      
+
+      // ******************   Application Code : end ************************//
+
+
       glBindFramebuffer(GL_FRAMEBUFFER, 0);
       MLGraphicsSignalSyncObjectGL(graphics_client, virtual_camera_array.virtual_cameras[camera].sync_object);
     }
