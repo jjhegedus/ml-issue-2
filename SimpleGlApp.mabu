@@ -1,3 +1,4 @@
+DATAS = "*.glsl" : "/"
 KIND = program
 OPTIONS = \
 	exceptions/on \
@@ -6,12 +7,17 @@ OPTIONS = \
 
 SRCS = \
 	LoadShader.cpp \
-	main.cpp
+	main.cpp \
+	utilities.cpp
 
 USES = \
 	OpenGL \
 	ml_sdk \
 	stdc++
+
+DEFS.lumin = \
+	ML_DEVICE \
+	USE_GLFW=0
 
 DEFS.win = \
 	ML_WINDOWS \
@@ -20,8 +26,4 @@ DEFS.win = \
 USES.win = \
 	glad \
 	glfw
-
-DEFS.lumin = \
-	ML_DEVICE \
-	USE_GLFW=0
 

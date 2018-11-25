@@ -1,5 +1,5 @@
-C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/main.cpp.o: \
- C:/Projects/Git/jjhegedus/simple_gl_app/main.cpp \
+C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/utilities.cpp.o: \
+ C:/Projects/Git/jjhegedus/simple_gl_app/utilities.cpp \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/chrono \
@@ -20,6 +20,7 @@ C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleG
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/intrin0.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ios \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iosfwd \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iostream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/istream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits.h \
@@ -28,6 +29,7 @@ C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleG
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ostream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ratio \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept \
@@ -194,7 +196,6 @@ C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleG
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h \
- C:/projects/git/jjhegedus/simple_gl_app/LoadShader.h \
  C:/projects/git/jjhegedus/simple_gl_app/common.h \
  C:/projects/git/jjhegedus/simple_gl_app/utilities.h \
  C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_api.h \
@@ -204,7 +205,7 @@ C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleG
  C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_snapshot.h \
  C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_types.h \
  C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_version.h
-C:/Projects/Git/jjhegedus/simple_gl_app/main.cpp:
+C:/Projects/Git/jjhegedus/simple_gl_app/utilities.cpp:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/chrono:
@@ -225,6 +226,7 @@ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/intrin0.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ios:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iosfwd:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iostream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/istream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/limits.h:
@@ -233,6 +235,7 @@ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ostream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/ratio:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept:
@@ -399,7 +402,6 @@ C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack2.h
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h:
-C:/projects/git/jjhegedus/simple_gl_app/LoadShader.h:
 C:/projects/git/jjhegedus/simple_gl_app/common.h:
 C:/projects/git/jjhegedus/simple_gl_app/utilities.h:
 C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_api.h:

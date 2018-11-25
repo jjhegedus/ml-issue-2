@@ -1,5 +1,5 @@
-C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/LoadShader.cpp.o: \
- C:/Projects/samples/SimpleGlApp/LoadShader.cpp \
+C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/LoadShader.cpp.o: \
+ C:/Projects/Git/jjhegedus/simple_gl_app/LoadShader.cpp \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/climits \
@@ -29,6 +29,7 @@ C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/Loa
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h \
+ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdint.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/streambuf \
@@ -180,14 +181,18 @@ C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/obj.SimpleGlApp/Loa
  C:/Projects/third-party/glad/include/KHR/khrplatform.h \
  C:/Projects/third-party/glad/include/glad/glad.h \
  C:/Projects/third-party/glfw/include/GLFW/glfw3.h \
+ C:/Users/jeff/MagicLeap/mlsdk/v0.18.0/include/ml_logging.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/poppack.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack1.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack2.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h \
  C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h \
- C:/projects/samples/simpleglapp/LoadShader.h
-C:/Projects/samples/SimpleGlApp/LoadShader.cpp:
+ C:/projects/git/jjhegedus/simple_gl_app/LoadShader.h \
+ C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_api.h \
+ C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_coordinate_frame_uid.h \
+ C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_version.h
+C:/Projects/Git/jjhegedus/simple_gl_app/LoadShader.cpp:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cerrno:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cfloat:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/climits:
@@ -217,6 +222,7 @@ C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sal.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/sstream:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdarg.h:
+C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdbool.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdexcept:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/stdint.h:
 C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/streambuf:
@@ -368,11 +374,15 @@ C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.17134.0/um/wow64apiset.h:
 C:/Projects/third-party/glad/include/KHR/khrplatform.h:
 C:/Projects/third-party/glad/include/glad/glad.h:
 C:/Projects/third-party/glfw/include/GLFW/glfw3.h:
+C:/Users/jeff/MagicLeap/mlsdk/v0.18.0/include/ml_logging.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/poppack.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack1.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack2.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack4.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/pshpack8.h:
 C:/program\ files\ (x86)/windows\ kits/10/include/10.0.17134.0/shared/sdv_driverspecs.h:
-C:/projects/samples/simpleglapp/LoadShader.h:
+C:/projects/git/jjhegedus/simple_gl_app/LoadShader.h:
+C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_api.h:
+C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_coordinate_frame_uid.h:
+C:/users/jeff/magicleap/mlsdk/v0.18.0/include/ml_version.h:
 

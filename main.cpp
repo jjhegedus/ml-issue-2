@@ -1,42 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-#include <chrono>
-#include <cmath>
-
-#if USE_GLFW
-
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-
-#else
-
-#ifndef EGL_EGLEXT_PROTOTYPES
-#define EGL_EGLEXT_PROTOTYPES
-#endif
-
-#include <EGL/egl.h>
-#include <EGL/eglext.h>
-
-#ifndef GL_GLEXT_PROTOTYPES
-#define GL_GLEXT_PROTOTYPES
-#endif
-
-#include <GLES3/gl3.h>
-#include <GLES3/gl3ext.h>
-
-#endif
-
-#include <ml_graphics.h>
-#include <ml_head_tracking.h>
-#include <ml_perception.h>
-#include <ml_lifecycle.h>
-#include <ml_logging.h>
-
-
+#include "common.h"
 
 // ******************   Application Includes : Begin ************************//
 #include "LoadShader.h"
+#include <string>
+#include "utilities.h"
 // ******************   Application Includes : End ************************//
 
 // Constants
@@ -246,7 +213,7 @@ int main() {
 
 
   // Create and compile our GLSL program from the shaders
-  GLuint programID = LoadShaders("C:/Projects/samples/SimpleGlApp/vertex-shader.glsl", "C:/Projects/samples/SimpleGlApp/fragment-shader.glsl");
+  GLuint programID = LoadShaders("vertex-shader.glsl", "fragment-shader.glsl");
 
 
   ML_LOG(Info, "%s: Application Setup Complete.", application_name);
@@ -289,12 +256,14 @@ int main() {
   auto start = std::chrono::steady_clock::now();
 
   while (application_context.dummy_value) {
+    ML_LOG(Info, "%s: Inside loop.", application_name);
     MLGraphicsFrameParams frame_params;
 
     MLResult out_result = MLGraphicsInitFrameParams(&frame_params);
     if (MLResult_Ok != out_result) {
       ML_LOG(Error, "MLGraphicsInitFrameParams complained: %d", out_result);
     }
+    ML_LOG(Info, "%s: MLGraphicsInitFrameParams created successfully.", application_name);
     frame_params.surface_scale = 1.0f;
     frame_params.projection_type = MLGraphicsProjectionType_ReversedInfiniteZ;
     frame_params.near_clip = 1.0f;
@@ -306,12 +275,14 @@ int main() {
     if (MLResult_Ok != out_result) {
       ML_LOG(Error, "MLGraphicsBeginFrame complained: %d", out_result);
     }
+    ML_LOG(Info, "%s: MLGraphicsBeginFrame success.", application_name);
 
     auto msRuntime = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - start).count();
     auto factor = labs(msRuntime % 2000 - 1000) / 1000.0;
 
     // Drawing functions must be performed for each camera
     for (int camera = 0; camera < 2; ++camera) {
+      ML_LOG(Info, "%s: One of these for each camera", application_name);
       glBindFramebuffer(GL_FRAMEBUFFER, graphics_context.framebuffer_id);
       glFramebufferTextureLayer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, virtual_camera_array.color_id, 0, camera);
       glFramebufferTextureLayer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, virtual_camera_array.depth_id, 0, camera);
@@ -333,17 +304,21 @@ int main() {
 
       glClearColor(0.0, 255.0, 0.0, 0.0);
 
+      ML_LOG(Info, "%s: color cleared.", application_name);
 
       // ******************   Application Code : Begin ************************//
 
+      ML_LOG(Info, "%s: Begin Application Code", application_name);
 
       // Use our shader
       glUseProgram(programID);
       // Draw triangle...
+      ML_LOG(Info, "%s: after glUseProgram", application_name);
 
       // 1st attribute buffer : vertices
       glEnableVertexAttribArray(0);
       glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+      ML_LOG(Info, "%s: after glBindBuffer for the vertexBuffer", application_name);
       glVertexAttribPointer(
         0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
         3,                  // size
@@ -352,8 +327,18 @@ int main() {
         0,                  // stride
         (void*)0            // array buffer offset
       );
-      // Draw the triangle !
+      ML_LOG(Info, "%s: after glVertexAttribPointer for the vertexBuffer", application_name);
+
+
+      std::string errorStringBeforeDraw = GetGLErrors();
+      ML_LOG(Info, "errorStringBeforeDraw = %s", errorStringBeforeDraw.c_str());
+
+
+      // Draw the triangle !    
       glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
+      std::string errorStringAfterDraw = GetGLErrors();
+      ML_LOG(Info, "errorStringAfterDraw = %s", errorStringAfterDraw.c_str());
+      ML_LOG(Info, "%s: after glDrawArrays", application_name);
       glDisableVertexAttribArray(0);
 
 
@@ -366,7 +351,8 @@ int main() {
       ////mat4 monkey_bone_offset_matrices[MAX_BONES];
 
 
-      
+
+      ML_LOG(Info, "%s: Application Code : end", application_name);
 
       // ******************   Application Code : end ************************//
 

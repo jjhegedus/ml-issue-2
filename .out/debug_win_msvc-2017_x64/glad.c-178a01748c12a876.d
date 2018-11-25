@@ -1,4 +1,4 @@
-C:/Projects/samples/SimpleGlApp/.out/debug_win_msvc-2017_x64/glad.c-178a01748c12a876.o: \
+C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_win_msvc-2017_x64/glad.c-178a01748c12a876.o: \
  C:/Projects/third-party/glad/src/glad.c \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/concurrencysal.h \
  C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/excpt.h \

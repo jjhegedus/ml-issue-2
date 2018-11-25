@@ -5,6 +5,9 @@
 #include <sstream>
 #include <vector>
 
+
+#include <ml_logging.h>
+
 GLuint LoadShaders(const char * vertex_file_path, const char * fragment_file_path) {
 
   // Create the shaders
@@ -18,6 +21,7 @@ GLuint LoadShaders(const char * vertex_file_path, const char * fragment_file_pat
     std::stringstream sstr;
     sstr << VertexShaderStream.rdbuf();
     VertexShaderCode = sstr.str();
+    ML_LOG(Info, "VertexShaderCode: %s", VertexShaderCode.c_str());
     VertexShaderStream.close();
   }
   else {
@@ -33,6 +37,7 @@ GLuint LoadShaders(const char * vertex_file_path, const char * fragment_file_pat
     std::stringstream sstr;
     sstr << FragmentShaderStream.rdbuf();
     FragmentShaderCode = sstr.str();
+    ML_LOG(Info, "FragmentShaderCode: %s", FragmentShaderCode.c_str());
     FragmentShaderStream.close();
   }
 
@@ -53,6 +58,7 @@ GLuint LoadShaders(const char * vertex_file_path, const char * fragment_file_pat
     std::vector<char> VertexShaderErrorMessage(InfoLogLength + 1);
     glGetShaderInfoLog(VertexShaderID, InfoLogLength, NULL, &VertexShaderErrorMessage[0]);
     printf("%s\n", &VertexShaderErrorMessage[0]);
+    ML_LOG(Info, "Checking Vertex Shader: %s", &VertexShaderErrorMessage[0]);
   }
 
   // Compile Fragment Shader
@@ -74,6 +80,7 @@ GLuint LoadShaders(const char * vertex_file_path, const char * fragment_file_pat
     glGetShaderInfoLog(FragmentShaderID, InfoLogLength, NULL, &FragmentShaderErrorMessage[0]);
     printf("Checking shader : 5\n");
     printf("%s\n", &FragmentShaderErrorMessage[0]);
+    ML_LOG(Info, "Checking Fragment Shader: %s", &FragmentShaderErrorMessage[0]);
     printf("Checking shader : 6\n");
   }
   printf("Checking shader : Done\n");

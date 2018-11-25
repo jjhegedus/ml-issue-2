@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "dest": "fragment-shader-old.glsl",
+  "src": "C:/Projects/Git/jjhegedus/simple_gl_app/fragment-shader-old.glsl"
+ },
+ {
+  "dest": "fragment-shader.glsl",
+  "src": "C:/Projects/Git/jjhegedus/simple_gl_app/fragment-shader.glsl"
+ },
+ {
+  "dest": "vertex-shader.glsl",
+  "src": "C:/Projects/Git/jjhegedus/simple_gl_app/vertex-shader.glsl"
+ }
+]

@@ -2,13 +2,13 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "d913736a68c3e644caa6c2f134a816b05a763e4a",
+   "hash": "5891b4d697ed2f6d44f1feffcb12bd676adfbe69",
    "pkgpath": "bin/SimpleGlApp",
-   "size": 14424,
-   "src": "C:/Projects/samples/SimpleGlApp/.out/debug_lumin_clang-3.8_aarch64/SimpleGlApp",
+   "size": 92328,
+   "src": "C:/Projects/Git/jjhegedus/simple_gl_app/.out/debug_lumin_clang-3.8_aarch64/SimpleGlApp",
    "xfrm_flags": {
     "signed": {
-     "cert": "C:\\Projects\\Git\\22ndtech\\admin\\magic-leap-private-key\\magic-leap-certificate-2018-10-27.cert"
+     "cert": "C:/Projects/Git/22ndtech/admin/magic-leap-private-key/magic-leap-certificate-2018-10-27.cert"
     },
     "taildata": {
      "debuggable": true,
@@ -16,16 +16,37 @@
      "version": 3
     }
    },
-   "xfrm_hash": "47eebf2c3c6d629578dab1ec7a4f3a00c0da8353",
-   "xfrm_path": "C:/Projects/samples/SimpleGlApp/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\SimpleGlApp-dfd7c0044c112f00",
-   "xfrm_size": 15182
+   "xfrm_hash": "891b7c724f6155131f5e0c473be55c512640472b",
+   "xfrm_path": "C:/Projects/Git/jjhegedus/simple_gl_app/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\SimpleGlApp-ce34990bf276ef10",
+   "xfrm_size": 93086
   },
   {
    "compression": 8,
-   "hash": "ce0a165ac4459ad793f9815f0b92687bd89fc741",
+   "hash": "73979163a2d1cb4537a7bfef88f8225150cd1c6e",
+   "pkgpath": "fragment-shader-old.glsl",
+   "size": 88,
+   "src": "C:/Projects/Git/jjhegedus/simple_gl_app/fragment-shader-old.glsl"
+  },
+  {
+   "compression": 8,
+   "hash": "056f6138c3ee86a8838ab302f0e9e56fbcc6dca0",
+   "pkgpath": "fragment-shader.glsl",
+   "size": 85,
+   "src": "C:/Projects/Git/jjhegedus/simple_gl_app/fragment-shader.glsl"
+  },
+  {
+   "compression": 8,
+   "hash": "493b934afba26d7281d373b712acfee3169a024b",
+   "pkgpath": "vertex-shader.glsl",
+   "size": 171,
+   "src": "C:/Projects/Git/jjhegedus/simple_gl_app/vertex-shader.glsl"
+  },
+  {
+   "compression": 8,
+   "hash": "c66675f0289da551c9b6303c6cef7b381c5bdf6a",
    "pkgpath": "manifest.xml",
-   "size": 535,
-   "src": "C:/Projects/samples/SimpleGlApp\\manifest.xml",
+   "size": 554,
+   "src": "C:/Projects/Git/jjhegedus/simple_gl_app\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
      "cert_hash": "631505a6f6bb360aa24c2b1170c21ced50b6ebb8",
@@ -33,7 +54,7 @@
     }
    },
    "xfrm_hash": "0d5cdd03cdcc3ca3dc0a327c7db3be5bdf61145c",
-   "xfrm_path": "C:/Projects/samples/SimpleGlApp/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\manifest.xml-3c60389a9c936b3a",
+   "xfrm_path": "C:/Projects/Git/jjhegedus/simple_gl_app/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\manifest.xml-f52989ad11f7b548",
    "xfrm_size": 529
   },
   {
@@ -41,10 +62,10 @@
    "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
    "pkgpath": "bin/libc++_shared.so",
    "size": 976832,
-   "src": "C:/Users/jhege/MagicLeap/mlsdk/v0.18.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "src": "C:/Users/jeff/MagicLeap/mlsdk/v0.18.0/lumin/stl/libc++/lib/libc++_shared.so",
    "xfrm_flags": {
     "signed": {
-     "cert": "C:\\Projects\\Git\\22ndtech\\admin\\magic-leap-private-key\\magic-leap-certificate-2018-10-27.cert"
+     "cert": "C:/Projects/Git/22ndtech/admin/magic-leap-private-key/magic-leap-certificate-2018-10-27.cert"
     },
     "taildata": {
      "debuggable": true,
@@ -53,17 +74,17 @@
     }
    },
    "xfrm_hash": "b67eb149ec0b7eeae2aff55851c0a6ef40c9f67f",
-   "xfrm_path": "C:/Projects/samples/SimpleGlApp/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\libc++_shared.so-d5e56045a955594e",
+   "xfrm_path": "C:/Projects/Git/jjhegedus/simple_gl_app/.out/simple_gl_app/debug_lumin_clang-3.8_aarch64\\libc++_shared.so-21fbb67b9b550ae1",
    "xfrm_size": 977590
   }
  ],
  "pkgflags": {
   "signed": {
-   "cert": "C:\\Projects\\Git\\22ndtech\\admin\\magic-leap-private-key\\magic-leap-certificate-2018-10-27.cert"
+   "cert": "C:/Projects/Git/22ndtech/admin/magic-leap-private-key/magic-leap-certificate-2018-10-27.cert"
   },
   "taildata": {
    "debuggable": true,
-   "devcert": "C:\\Projects\\Git\\22ndtech\\admin\\magic-leap-private-key\\magic-leap-certificate-2018-10-27.cert",
+   "devcert": "C:/Projects/Git/22ndtech/admin/magic-leap-private-key/magic-leap-certificate-2018-10-27.cert",
    "sbox": "USER",
    "version": 3
   }

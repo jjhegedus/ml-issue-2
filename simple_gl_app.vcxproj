@@ -83,7 +83,7 @@
     </PropertyPageSchema>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ML'">
-    <MLSDK>C:\Users\jhege\MagicLeap\mlsdk\v0.18.0</MLSDK>
+    <MLSDK>C:\Users\jeff\MagicLeap\mlsdk\v0.18.0</MLSDK>
     <MLCertificateFile>
     </MLCertificateFile>
     <!--This should appear before <NMakeBuildCommandLine> -->
@@ -153,7 +153,7 @@
     <MLDownloadOnStart>true</MLDownloadOnStart>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <MLSDK>C:\Users\jhege\MagicLeap\mlsdk\v0.18.0</MLSDK>
+    <MLSDK>C:\Users\jeff\MagicLeap\mlsdk\v0.18.0</MLSDK>
     <MLCertificateFile>
     </MLCertificateFile>
     <MLExtraBuildOption>
@@ -214,6 +214,7 @@
   <ItemGroup>
     <ClCompile Include="LoadShader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment-shader-old.glsl" />
@@ -226,11 +227,13 @@
     <None Include="simple_gl_app.package" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
     <ClInclude Include="LoadShader.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MLProjectMabuSyncTime="131874739431425123 (11/23/2018 7:12:23 PM UTC)" />
+      <UserProperties MLProjectMabuSyncTime="131876358706406677 (11/25/2018 4:11:10 PM UTC)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
